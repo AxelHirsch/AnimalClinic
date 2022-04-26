@@ -1,5 +1,7 @@
 package animal;
 
+import workdata.Data;
+
 public abstract class Animal {
     private final String name, color;
     private final Data data;

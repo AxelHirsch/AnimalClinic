@@ -1,4 +1,6 @@
-package animal;
+package workdata;
+
+import animal.Animal;
 
 public class Data {
    private final Animal animal;
@@ -8,6 +10,6 @@ public class Data {
     }
 
     public String getAnimalData() {
-        return "Name: " + animal.getName() + " , " + "Color: " + animal.getColor();
+        return "Name: " + this.animal.getName() + "#" + "Color: " + this.animal.getColor() + "#";
     }
 }

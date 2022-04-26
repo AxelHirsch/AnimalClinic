@@ -2,7 +2,7 @@ import animal.Cat;
 import animal.Dog;
 import animal.Parrot;
 import workdata.PrintData;
-import workdata.PrintType;
+import formatter.FormatterType;
 
 public class Main {
 
@@ -11,8 +11,8 @@ public class Main {
         Dog dog = new Dog("Palkan", "Black-Orange");
         Parrot parrot = new Parrot("Kesha", "Red-Yellow-Blue");
         PrintData data = new PrintData();
-        data.showData(cat, PrintType.TXT);
-        data.showData(dog, PrintType.CONSOLE);
-        data.showData(parrot, PrintType.CONSOLE);
+        data.showData(cat, FormatterType.HTML);
+        data.showData(dog, FormatterType.CONSOLE);
+        data.showData(parrot, FormatterType.CONSOLE);
     }
 }
